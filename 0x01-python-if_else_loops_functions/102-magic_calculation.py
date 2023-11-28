@@ -4,7 +4,8 @@ def magic_calculation(a, b, c):
         return c
     elif c > b:
         return a + b
-    return a * b - c
+    else:
+        return a * b - c
 
 import dis
 dis.dis(magic_calculation)
